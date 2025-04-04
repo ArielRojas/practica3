@@ -54,7 +54,7 @@ git push origin master
 ```bash
 git branch ramaDesarrollo
 ```
-2. Cambiar a la 'ramaDesarollo' con:
+2. Cambiar a la `ramaDesarollo` con:
 ```bash
 git checkout ramaDesarrollo
 ```
@@ -66,5 +66,9 @@ git commit -m "Cambios en la rama desarrollo"
 ```
 5. Volver a la rama master
 ```bash
-git push origin master
+git checkout master
+```
+6. Fusionar la `ramaDesarrollo` a `master`
+```
+git merge ramaDesarrollo
 ```
